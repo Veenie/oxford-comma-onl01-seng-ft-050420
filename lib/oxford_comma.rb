@@ -1,6 +1,7 @@
 def oxford_comma(array)
-array.join
-array[-2] << " and "
+  if array.length == 2
+  array[-2] << " and "
+  array.join
 
 
 end
